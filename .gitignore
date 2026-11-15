@@ -1,0 +1,12 @@
+# Ignore compiled binaries without extension in Task directories
+Task*/*
+!Task*/*.cpp
+!Task*/*.txt
+!Task*/*.h
+!Task*/*.md
+!Task*/*.png
+
+# Build artifacts
+*.out
+*.o
+*.exe
